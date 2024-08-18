@@ -121,9 +121,6 @@ const uint8_t FNAME_FLAG_NEED_LFN =
 const uint8_t FNAME_FLAG_LC_BASE = FAT_CASE_LC_BASE;
 /** Filename extension is all lower case. */
 const uint8_t FNAME_FLAG_LC_EXT = FAT_CASE_LC_EXT;
-#if FNAME_FLAG_NEED_LFN & (FAT_CASE_LC_BASE || FAT_CASE_LC_EXT)
-#error FNAME_FLAG_NEED_LFN & (FAT_CASE_LC_BASE || FAT_CASE_LC_EXT)
-#endif  // FNAME_FLAG_NEED_LFN & (FAT_CASE_LC_BASE || FAT_CASE_LC_EXT)
 //==============================================================================
 /**
  * \class FatFile

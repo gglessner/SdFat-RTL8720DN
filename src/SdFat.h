@@ -41,6 +41,9 @@
 #define SD_FAT_VERSION 20200
 /** SdFat version as string. */
 #define SD_FAT_VERSION_STR "2.2.0"
+//------------------------------------------------------------------------------
+#define SS 9
+#define SDCARD_SS_PIN 9
 //==============================================================================
 /**
  * \class SdBase

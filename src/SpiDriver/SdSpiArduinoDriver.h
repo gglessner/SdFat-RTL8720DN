@@ -26,6 +26,7 @@
  * \file
  * \brief SpiDriver classes for Arduino compatible systems.
  */
+#define SPI_MODE0 0
 #ifndef SdSpiArduinoDriver_h
 #define SdSpiArduinoDriver_h
 //==============================================================================
